@@ -31,8 +31,8 @@ export default function Footer() {
 
         <div>
           <h5 className="text-sm font-semibold text-white mb-3">Contact</h5>
-          <p className="text-sm text-gray-400">Email: info@worldhospitality.com</p>
-          <p className="text-sm text-gray-400">Phone: +91 98765 43210</p>
+          <p className="text-sm text-gray-400">Email: hello@epfdesk.com</p>
+          <p className="text-sm text-gray-400">Phone: +919945933333</p>
         </div>
       </div>
 
