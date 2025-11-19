@@ -33,6 +33,7 @@ export default function Footer() {
           <h5 className="text-sm font-semibold text-white mb-3">Contact</h5>
           <p className="text-sm text-gray-400">Email: hello@epfdesk.com</p>
           <p className="text-sm text-gray-400">Phone: +919945933333</p>
+          <p className="text-sm text-gray-400">Location: 62/63 Church Street, Bengaluru, Karnataka, 560001</p>
         </div>
       </div>
 
