@@ -43,7 +43,7 @@ const restaurantsJsonLd = {
 
 export default function RestaurantsPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-slate-900 to-black text-slate-100">
+    <main className="min-h-screen bg-linear-to-b from-slate-900 to-black text-slate-100">
       {/* HERO */}
       <script
         type="application/ld+json"
@@ -121,7 +121,7 @@ export default function RestaurantsPage() {
       </section>
 
       {/* OVERVIEW + PUBLISHER NOTE */}
-      <section className="relative py-20 border-t border-slate-800 bg-gradient-to-b from-slate-900/40 to-black">
+      <section className="relative py-20 border-t border-slate-800 bg-linear-to-b from-slate-900/40 to-black">
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center">
           {/* TITLE */}
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mb-6">
@@ -200,7 +200,7 @@ export default function RestaurantsPage() {
                   className="w-full h-52 object-cover"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
+                <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent p-6 flex flex-col justify-end">
                   <h4 className="text-lg font-semibold">{c.title}</h4>
                   <p className="text-sm text-slate-300">{c.desc}</p>
                   <a
@@ -217,14 +217,14 @@ export default function RestaurantsPage() {
       </section>
 
       {/* EDITORIAL TWO-COLUMN: REGIONAL INDIAN & INTERNATIONAL */}
-      <section className="relative py-20 border-t border-slate-800 bg-gradient-to-b from-slate-900/20 to-black">
+      <section className="relative py-20 border-t border-slate-800 bg-linear-to-b from-slate-900/20 to-black">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* LEFT COLUMN — INDIAN CUISINE */}
           <article className="space-y-6">
             {/* Title */}
             <div>
               <div className="flex items-center gap-3 mb-2">
-                <span className="w-10 h-[2px] bg-amber-400"></span>
+                <span className="w-10 h-0.5 bg-amber-400"></span>
                 <h3 className="text-2xl font-serif font-semibold text-white">
                   Indian Cuisine — Regional Flavors & Heritage
                 </h3>
@@ -278,7 +278,7 @@ export default function RestaurantsPage() {
             {/* Title */}
             <div>
               <div className="flex items-center gap-3 mb-2">
-                <span className="w-10 h-[2px] bg-amber-400"></span>
+                <span className="w-10 h-0.5 bg-amber-400"></span>
                 <h3 className="text-2xl font-serif font-semibold text-white">
                   International Cuisines — Global Culinary Journeys
                 </h3>
@@ -380,7 +380,7 @@ export default function RestaurantsPage() {
                 className="w-full h-64 object-cover"
                 loading="lazy"
               />
-              <div className="p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <div className="p-6 bg-linear-to-t from-black/70 to-transparent">
                 <h4 className="text-xl font-semibold">
                   Farm-to-Table & Organic
                 </h4>
@@ -398,7 +398,7 @@ export default function RestaurantsPage() {
                 className="w-full h-64 object-cover"
                 loading="lazy"
               />
-              <div className="p-6 bg-gradient-to-t from-black/70 to-transparent">
+              <div className="p-6 bg-linear-to-t from-black/70 to-transparent">
                 <h4 className="text-xl font-semibold">Rooftop & Waterfront</h4>
                 <p className="text-sm text-slate-300 mt-2">
                   Panoramic views enhance cocktails and evening dining — perfect
@@ -411,12 +411,12 @@ export default function RestaurantsPage() {
       </section>
 
       {/* PRACTICALS: HOW TO CHOOSE & FEATURES */}
-      <section className="relative py-20 border-t border-slate-800 bg-gradient-to-b from-black to-slate-950/50">
+      <section className="relative py-20 border-t border-slate-800 bg-linear-to-b from-black to-slate-950/50">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           {/* Heading */}
           <div className="mb-10">
             <div className="flex items-center gap-3 mb-3">
-              <span className="w-10 h-[2px] bg-amber-400"></span>
+              <span className="w-10 h-0.5 bg-amber-400"></span>
               <h3 className="text-3xl font-serif font-semibold text-white">
                 Finding the Right Restaurant
               </h3>
@@ -487,7 +487,7 @@ export default function RestaurantsPage() {
       {/* SEARCH BLOCK */}
       <section id="search" className="py-12">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="rounded-2xl bg-gradient-to-b from-slate-900 to-slate-800 border border-slate-700 p-8">
+          <div className="rounded-2xl bg-linear-to-b from-slate-900 to-slate-800 border border-slate-700 p-8">
             <h4 className="text-lg font-semibold mb-2">Search listings</h4>
             <p className="text-sm text-slate-400 mb-4">
               Search by name, city, cuisine, or tag

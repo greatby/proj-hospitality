@@ -76,7 +76,7 @@ export default function HotelsPage() {
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a
                   href="#spotlight"
-                  className="inline-block rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 px-6 py-3 font-semibold text-black shadow-lg transform hover:-translate-y-0.5 transition"
+                  className="inline-block rounded-full bg-linear-to-r from-yellow-400 to-yellow-500 px-6 py-3 font-semibold text-black shadow-lg transform hover:-translate-y-0.5 transition"
                 >
                   See Spotlight Hotels
                 </a>
@@ -162,7 +162,7 @@ export default function HotelsPage() {
             ].map((h) => (
               <article
                 key={h.title}
-                className="rounded-2xl overflow-hidden bg-gradient-to-b from-[#071017] to-[#0b1320] border border-gray-800 shadow-xl"
+                className="rounded-2xl overflow-hidden bg-linear-to-b from-[#071017] to-[#0b1320] border border-gray-800 shadow-xl"
               >
                 <img
                   src={h.img}
@@ -231,7 +231,7 @@ export default function HotelsPage() {
             ].map((t) => (
               <div
                 key={t.title}
-                className="p-6 rounded-2xl bg-gradient-to-br from-[#071017] to-[#09121a] border border-gray-800 shadow-lg"
+                className="p-6 rounded-2xl bg-linear-to-br from-[#071017] to-[#09121a] border border-gray-800 shadow-lg"
               >
                 <h3 className="text-lg font-semibold text-yellow-400 mb-2">
                   {t.title}
@@ -307,7 +307,7 @@ export default function HotelsPage() {
           </div>
 
           {/* RIGHT: Booking Tips */}
-          <div className="rounded-2xl p-8 bg-gradient-to-br from-[#0f172a] to-[#1e293b] border border-gray-700 shadow-xl">
+          <div className="rounded-2xl p-8 bg-linear-to-br from-[#0f172a] to-[#1e293b] border border-gray-700 shadow-xl">
             <h3 className="text-2xl font-semibold text-yellow-400">
               Booking Tips & Rate Strategies
             </h3>
@@ -350,7 +350,7 @@ export default function HotelsPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* CARD 1 */}
-            <article className="group p-7 rounded-2xl bg-gradient-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <article className="group p-7 rounded-2xl bg-linear-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <h4 className="text-xl font-semibold text-yellow-400 mb-3 flex items-center gap-2">
                 <span className="text-yellow-300 text-lg">●</span>
                 Accessibility & Family Stays
@@ -363,7 +363,7 @@ export default function HotelsPage() {
             </article>
 
             {/* CARD 2 */}
-            <article className="group p-7 rounded-2xl bg-gradient-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <article className="group p-7 rounded-2xl bg-linear-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <h4 className="text-xl font-semibold text-yellow-400 mb-3 flex items-center gap-2">
                 <span className="text-yellow-300 text-lg">●</span>
                 Business Travel Essentials
@@ -376,7 +376,7 @@ export default function HotelsPage() {
             </article>
 
             {/* CARD 3 */}
-            <article className="group p-7 rounded-2xl bg-gradient-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
+            <article className="group p-7 rounded-2xl bg-linear-to-br from-[#0c1118] to-[#0f1a24] border border-slate-700 shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
               <h4 className="text-xl font-semibold text-yellow-400 mb-3 flex items-center gap-2">
                 <span className="text-yellow-300 text-lg">●</span>
                 Eco-Friendly & Wellness Stays
@@ -394,7 +394,7 @@ export default function HotelsPage() {
       {/* SEARCH BLOCK */}
       <section
         id="search"
-        className="py-12 bg-gradient-to-b from-[#02060a] to-[#04121a] border-t border-slate-800"
+        className="py-12 bg-linear-to-b from-[#02060a] to-[#04121a] border-t border-slate-800"
       >
         <div className="max-w-4xl mx-auto px-6">
           <div className="rounded-2xl p-8 bg-[#061018] border border-gray-800 shadow-lg">
@@ -416,7 +416,7 @@ export default function HotelsPage() {
                 className="col-span-2 rounded-full px-4 py-3 bg-transparent border border-gray-700 text-gray-200 outline-none"
                 aria-label="search hotels"
               />
-              <button className="rounded-full px-6 py-3 bg-gradient-to-r from-yellow-400 to-yellow-500 text-black font-semibold">
+              <button className="rounded-full px-6 py-3 bg-linear-to-r from-yellow-400 to-yellow-500 text-black font-semibold">
                 Search
               </button>
             </form>
@@ -477,7 +477,7 @@ export default function HotelsPage() {
           <div>
             <a
               href="/hotels/list"
-              className="inline-block rounded-full bg-gradient-to-r from-yellow-400 to-yellow-500 px-6 py-3 font-semibold text-black shadow-lg"
+              className="inline-block rounded-full bg-linear-to-r from-yellow-400 to-yellow-500 px-6 py-3 font-semibold text-black shadow-lg"
             >
               Browse Hotels
             </a>

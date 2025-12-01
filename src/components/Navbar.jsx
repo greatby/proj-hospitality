@@ -45,7 +45,7 @@ export default function Navbar() {
               onChange={handleNav}
               defaultValue=""
               aria-label="Navigation"
-              className="bg-transparent text-sm p-2 border border-gray-700 rounded text-gray-200"
+              className="bg-transparent text-sm p-2 border border-gray-700 rounded text-gray-600"
             >
               <option value="" disabled>
                 Menu
